@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerUm {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    padding: 25px;
+    box-shadow: 20px 20px 25px black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 90px;
+    font-size: 13px;
+    
+}
+button {
+    background-color: rgb(59, 106, 138) ;
+    color: white;
+    border-radius: 10px;
+    padding: 13px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(43, 76, 99) ;
+    color: white;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

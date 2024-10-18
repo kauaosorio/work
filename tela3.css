@@ -1,0 +1,60 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerUm {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 20px 20px 25px black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#form-feedback{
+    flex-direction: column;
+    width: 200px; 
+}
+button {
+    background-color: rgb(59, 106, 138) ;
+    color: white;
+    border-radius: 10px;
+    padding: 13px;
+    border:  none;
+}
+
+button:hover {
+    background-color: rgb(43, 76, 99) ;
+    color: white;
+}
+
+
+#mensagem{ 
+    width: 200px;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#larara{
+    height: 50px;
+    width: 70px;
+}
